@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "name": "Irrigation System",
+    "price": 225,
+    "color": "White",
+    "image": "images/img-/maillot-.webp",
+    "category": "planning"
+  },
+  {
+    "id": 2,
+    "name": "Evolve 3D Pro Air Jersey",
+    "price": 225,
+    "color": "Gray",
+    "image": "images/img-/maillot-.webp",
+    "category": "planning"
+  },
+  {
+    "id": 3,
+    "name": "Evolve 3D Pro Air Jersey",
+    "price": 225,
+    "color": "Green",
+    "image": "images/img-/maillot-.webp",
+    "category": "planning"
+  },
+  {
+    "id": 4,
+    "name": "Evade Pro Base Jersey 2.0",
+    "price": 245,
+    "color": "Black",
+    "image": "images/img-/maillot-.webp",
+    "category": "planning"
+  },
+  {
+    "id": 5,
+    "name": "Evade Pro Base Jersey 2.0",
+    "price": 245,
+    "color": "Gray",
+    "image": "images/img-/maillot-.webp",
+    "category": "planning"
+  },
+  {
+    "id": 6,
+    "name": "Evade Pro Base Jersey 2.0",
+    "price": 245,
+    "color": "Green",
+    "image": "images/img-/maillot-.webp",
+    "category": "planning"
+  },
+  {
+    "id": 7,
+    "name": "Training Bib 3.0",
+    "price": 295,
+    "color": "Black",
+    "image": "images/img-.webp",
+    "category": "planning"
+  },
+  {
+    "id": 8,
+    "name": "Elipse Team Bib Evo",
+    "price": 375,
+    "color": "Black",
+    "image": "images/img-.webp",
+    "category": "planning"
+  },
+  {
+    "id": 9,
+    "name": "Training Bib 3.0",
+    "price": 295,
+    "color": "Brown",
+    "image": "images/img-.webp",
+    "category": "planning"
+  },
+  {
+    "id": 10,
+    "name": "Training Bib 3.0",
+    "price": 295,
+    "color": "Green",
+    "image": "images/img-.webp",
+    "category": "planning"
+  },
+  {
+    "id": 11,
+    "name": "Elipse Team Bib Evo",
+    "price": 375,
+    "color": "Red",
+    "image": "images/img-.webp",
+    "category": "planning"
+  },
+  {
+    "id": 12,
+    "name": "Team Bib Evo",
+    "price": 355,
+    "color": "Brown",
+    "image": "images/img-.webp",
+    "category": "planning"
+  },
+  {
+    "id": 13,
+    "name": "Evade Pro Base LS Jersey 2.0",
+    "price": 275,
+    "color": "Brown",
+    "image": "images/img-NS/NS3.webp",
+    "category": "design"
+  },
+  {
+    "id": 14,
+    "name": "Evade Pro Base LS Jersey 2.0",
+    "price": 275,
+    "color": "Purple",
+    "image": "images/img-NS/NS4.webp",
+    "category": "design"
+  },
+  {
+    "id": 15,
+    "name": "Women's Evade Pro Base Jersey 2.0",
+    "price": 245,
+    "color": "Purple",
+    "image": "images/img-NS/NS6.webp",
+    "category": "design"
+  },
+  {
+    "id": 16,
+    "name": "Women's Evade Pro Base Jersey 2.0",
+    "price": 245,
+    "color": "Blue",
+    "image": "images/img-NS/NS7.webp",
+    "category": "design"
+  },
+  {
+    "id": 17,
+    "name": "Evade Pro Base Jersey 2.0",
+    "price": 245,
+    "color": "White",
+    "image": "images/img-NS/NS8.webp",
+    "category": "design"
+  },
+  {
+    "id": 18,
+    "name": "Women's Team Bib Evo",
+    "price": 355,
+    "color": "Purple",
+    "image": "images/img-NS/NS9.webp",
+    "category": "design"
+  },
+  {
+    "id": 19,
+    "name": "Women's Team Bib Evo",
+    "price": 355,
+    "color": "Brown",
+    "image": "images/img-NS/NS10.webp",
+    "category": "design"
+  },
+  {
+    "id": 20,
+    "name": "Team Bib Evo",
+    "price": 355,
+    "color": "Deep Purple",
+    "image": "images/img-NS/NS11.webp",
+    "category": "design"
+  },
+  {
+    "id": 21,
+    "name": "Women's Team Bib Evo",
+    "price": 355,
+    "color": "Purple",
+    "image": "images/img-NS/NS9.webp",
+    "category": "design"
+  },
+  {
+    "id": 22,
+    "name": "Draft Team Jacket",
+    "price": 215,
+    "color": "Brown",
+    "image": "images/img-NS/NS15.webp",
+    "category": "design"
+  },
+  {
+    "id": 23,
+    "name": "Women's Draft Team Jacket",
+    "price": 215,
+    "color": "Purple",
+    "image": "images/img-NS/NS16.webp",
+    "category": "design"
+  },
+  {
+    "id": 24,
+    "name": "Women's Evolve 3D Pro Air",
+    "price": 225,
+    "color": "White",
+    "image": "images/img-woman/maillot-woman1.webp",
+    "category": "design"
+  },
+  {
+    "id": 25,
+    "name": "Women's Evolve 3D Pro Air",
+    "price": 225,
+    "color": "Green",
+    "image": "images/img-woman/maillot-woman2.webp",
+    "category": "plants"
+  },
+  {
+    "id": 26,
+    "name": "Women's Evade Pro Base Jersey 2.0",
+    "price": 245,
+    "color": "Light Green",
+    "image": "images/img-woman/maillot-woman4.webp",
+    "category": "plants"
+  },
+  {
+    "id": 27,
+    "name": "Women's Evolve 3D Pro Air",
+    "price": 225,
+    "color": "Pink",
+    "image": "images/img-woman/maillot-woman5.webp",
+    "category": "plants"
+  },
+  {
+    "id": 28,
+    "name": "Team Bib Evo",
+    "price": 355,
+    "color": "Light Gray",
+    "image": "images/img-woman/culotte-woman1.webp",
+    "category": "plants"
+  },
+  {
+    "id": 29,
+    "name": "Women's Training Bib 3.0",
+    "price": 295,
+    "color": "Black",
+    "image": "images/img-woman/culotte-woman2.webp",
+    "category": "plants"
+  },
+  {
+    "id": 30,
+    "name": "Women's Training Bib 3.0",
+    "price": 295,
+    "color": "Green",
+    "image": "images/img-woman/culotte-woman3.webp",
+    "category": "plants"
+  },
+  {
+    "id": 31,
+    "name": "Women's Alt_Road Cargo",
+    "price": 415,
+    "color": "Purple",
+    "image": "images/img-woman/culotte-woman4.webp",
+    "category": "plants"
+  },
+  {
+    "id": 32,
+    "name": "Women's Alt_Road Cargo",
+    "price": 415,
+    "color": "Brown",
+    "image": "images/img-woman/culotte-woman5.webp",
+    "category": "plants"
+  },
+  {
+    "id": 33,
+    "name": "Women's Training Bib 3.0",
+    "price": 295,
+    "color": "Brown",
+    "image": "images/img-woman/culotte-woman6.webp",
+    "category": "acc"
+  },
+  {
+    "id": 34,
+    "name": "MAAP x 100% Hypercraft",
+    "price": 305,
+    "color": "Red",
+    "image": "images/img-acc/acc1.webp",
+    "category": "acc"
+  },
+  {
+    "id": 35,
+    "name": "MAAP x 100% Hypercraft",
+    "price": 305,
+    "color": "Green",
+    "image": "images/img-acc/acc2.webp",
+    "category": "acc"
+  },
+  {
+    "id": 36,
+    "name": "Pro Race Mitt",
+    "price": 115,
+    "color": "Green",
+    "image": "images/img-acc/acc3.webp",
+    "category": "acc"
+  },
+  {
+    "id": 37,
+    "name": "Leg Warmers",
+    "price": 95,
+    "color": "Black",
+    "image": "images/img-acc/acc4.webp",
+    "category": "acc"
+  },
+  {
+    "id": 38,
+    "name": "Leg Warmers",
+    "price": 95,
+    "color": "Blue",
+    "image": "images/img-acc/acc5.webp",
+    "category": "acc"
+  },
+  {
+    "id": 39,
+    "name": "Knee Warmers",
+    "price": 80,
+    "color": "Black",
+    "image": "images/img-acc/acc6.webp",
+    "category": "acc"
+  },
+  {
+    "id": 40,
+    "name": "Arm Warmers",
+    "price": 75,
+    "color": "Blue",
+    "image": "images/img-acc/acc7.webp",
+    "category": "acc"
+  },
+  {
+    "id": 41,
+    "name": "Evade Bottle",
+    "price": 30,
+    "color": "Black",
+    "image": "images/img-acc/acc8.webp",
+    "category": "acc"
+  },
+  {
+    "id": 42,
+    "name": "Evade Bottle",
+    "price": 30,
+    "color": "White",
+    "image": "images/img-acc/acc9.webp",
+    "category": "acc"
+  },
+  {
+    "id": 43,
+    "name": "ADL 2023 Sock",
+    "price": 35,
+    "color": "Black",
+    "image": "images/img-acc/acc10.webp",
+    "category": "acc"
+  },
+  {
+    "id": 44,
+    "name": "Emerge Pro Air Sock",
+    "price": 30,
+    "color": "Green",
+    "image": "images/img-acc/acc11.webp",
+    "category": "acc"
+  },
+  {
+    "id": 45,
+    "name": "Emerge Pro Air Sock",
+    "price": 30,
+    "color": "Black",
+    "image": "images/img-acc/acc12.webp",
+    "category": "acc"
+  }
+]

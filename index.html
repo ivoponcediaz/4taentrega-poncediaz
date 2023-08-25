@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--ICON-->
+    <link rel="icon" type="image/jpg" href="" />
+    <!--GFONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!--BOOTSTRAP-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!--BOOTSTRAP-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <!--TOASTIFY-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <!--CSS-->
+    <link rel="stylesheet" href="/style.css" />
+    <title>VMP | COSTA RICA</title>
+    <!--META DESCRIPTION/KEYWORDS-->
+    <meta
+      name="description"
+      content="We are a company dedicated to landscaping and nursery. Design and planning, maintenance and sale of plants. You can find us in Malpais, Costa Rica."
+    />
+    <meta
+      name="keywords"
+      content="Landscaping, Nursery, Design, Planning, Plants, Sale, Maintenance, Consulting, Execution of works, Irrigation system."
+    />
+  </head>
+  <body>
+    <!--Scroll Up Button-->
+    <div id="scrollUp">
+      <button class="btn btn-light px-1 border border-black">
+        <a href="#" class="link-dark">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-arrow-up-square-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"
+            />
+          </svg>
+        </a>
+      </button>
+    </div>
+    <!--Weather App Button-->
+    <div id="ideasButton">
+      <button
+        class="btn btn-light px-1 border border-black"
+        data-bs-toggle="modal"
+        data-bs-target="#ideasModal"
+      >
+        <a href="#" class="link-dark">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-cloud-sun-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M11.473 11a4.5 4.5 0 0 0-8.72-.99A3 3 0 0 0 3 16h8.5a2.5 2.5 0 0 0 0-5h-.027z"
+            />
+            <path
+              d="M10.5 1.5a.5.5 0 0 0-1 0v1a.5.5 0 0 0 1 0v-1zm3.743 1.964a.5.5 0 1 0-.707-.707l-.708.707a.5.5 0 0 0 .708.708l.707-.708zm-7.779-.707a.5.5 0 0 0-.707.707l.707.708a.5.5 0 1 0 .708-.708l-.708-.707zm1.734 3.374a2 2 0 1 1 3.296 2.198c.199.281.372.582.516.898a3 3 0 1 0-4.84-3.225c.352.011.696.055 1.028.129zm4.484 4.074c.6.215 1.125.59 1.522 1.072a.5.5 0 0 0 .039-.742l-.707-.707a.5.5 0 0 0-.854.377zM14.5 6.5a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1z"
+            />
+          </svg>
+        </a>
+      </button>
+    </div>
+    <!--Weather Modal-->
+    <div
+      class="modal fade"
+      id="ideasModal"
+      tabindex="-1"
+      aria-labelledby="ideasModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="ideasModalLabel">
+              IT'S ALL ABOUT YOU
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-center" id="ideasModalBody">
+            <p class="py-1">Introduce your city to check the weather:</p>
+            <form action="" id="formWeather" class="position-relative">
+              <input
+                type="search"
+                id="searchCity"
+                value=""
+                placeholder="Search"
+                class="form-control w-50 position-absolute top-0 start-30 my-3 mx-4"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-dark position-absolute top-0 end-30 my-3 mx-5"
+                id="searchCityButton"
+              >
+                <i class="bi bi-search"></i>
+              </button>
+            </form>
+            <h2 class="mt-10" id="city">Weather in Costa Rica</h2>
+            <h3 class="my-3" id="temp">29ºC</h3>
+            <p class="text-start d-inline p-2" id="description">Claudy</p>
+            <img id="icon" src="" alt="" />
+            <p class="text-center mt-3 mb-0" id="humidity">Humidity: 60%</p>
+            <p class="text-center" id="windSpeed">Wind Speed: 6.2km/h</p>
+          </div>
+          <div class="modal-footer" id="ideasFooter">
+            <p class="text-center" id="modalFooterText">
+              We have the perfect product for that weather conditions!
+            </p>
+            <button
+              type="button"
+              class="btn btn-dark"
+              data-bs-dismiss="modal"
+              id="modalFooterBtn1"
+            >
+              Not interested
+            </button>
+            <button
+              type="button"
+              id="weatherProductsButton"
+              class="btn btn-dark"
+            >
+              SHOW ME
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--NavBar-->
+    <div class="container-fluid navbar fixed-top">
+      <a class="m-2 position-absolute top-1 start-0" href="index.html"
+        ><img src="" alt=""
+      /></a>
+      <div class="position-absolute top-50 start-50 translate-middle-y">
+        <input
+          type="search"
+          id="searchInput"
+          value=""
+          placeholder="Search"
+          class="form-control me-2 w-50"
+          aria-label="Search"
+        />
+      </div>
+      <button
+        class="m-4 btn btn-dark position-absolute top-1 end-0"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasExample"
+        aria-controls="offcanvasExample"
+      >
+        <i class="bi bi-cart3"></i>
+        <span id="productsOnCart" class="badge text-bg-light"></span>
+      </button>
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <!--Cart-->
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">CART</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div id="cart">
+            <ul class="cart list-group">
+              <!-- JS CONTENT -->
+            </ul>
+          </div>
+          <div id="ticket">
+            <div class="d-flex justify-content-between mb-4">
+              <h5 class="total text-secondary pt-2">
+                Total: (<span id="cartTotal">0</span>) DLS $
+              </h5>
+            </div>
+            <div class="checkout">
+              <button
+                class="btn btn-dark"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+                id="checkoutBtn"
+              >
+                CHECKOUT
+              </button>
+              <button type="button" class="btn btn-dark" id="emptyCartBtn">
+                EMPTY CART
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Category Filters-->
+    <div class="container-fluid mt-10 mb-3">
+      <ul class="nav nav-tabs justify-content-center">
+        <li class="nav-item">
+          <a
+            class="nav-link link-secondary"
+            aria-current="page"
+            href="#"
+            id="newCategory"
+            >Planning</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link link-secondary"
+            aria-current="page"
+            href="#"
+            id="manCategory"
+            >Design</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link link-secondary"
+            aria-current="page"
+            href="#"
+            id="womanCategory"
+            >Plants</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-secondary" href="#" id="accCategory">Acc</a>
+        </li>
+      </ul>
+    </div>
+    <div class="container-fluid" id="bannerTop">
+      <div class="bg-image img-fluid position-relative">
+        <img src="images/bannerNS.avif" class="w-100" />
+        <div class="position-absolute bottom-50 text-light section-title">
+          <h1 class="p-2 m-0">LANDSCAPING</h1>
+        </div>
+      </div>
+    </div>
+    <!-- Products -->
+    <main>
+      <div class="container-fluid">
+        <div id="products" class="text-center gallery">
+          <!-- JS loaded products -->
+        </div>
+      </div>
+    </main>
+    <!--Ticket Modal-->
+    <div id="ticketModal">
+      <div
+        class="modal fade"
+        id="staticBackdrop"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Ticket</h1>
+              <button
+                type="button"
+                class="btn-close closeTicket"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <p class="pt-2 px-4 text-center" id="modalText">
+              Click on CONFIRM to proceed with payment.
+            </p>
+            <div class="modal-body" id="modalBody">
+              <ul class="list-unstyled list-group" id="modalList"></ul>
+              <div id="modalIframe"></div>
+            </div>
+            <div class="modal-footer d-flex justify-content-between">
+              <div id="resume"></div>
+              <button type="button" class="btn btn-dark confirmTicket">
+                Confirm
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="iframe-container" id="iframe">
+      <iframe class="responsive-iframe" src="" loading="lazy"></iframe>
+    </div>
+    <!--Footer-->
+    <footer>
+      <div class="container-fluid footer-top text-center">
+        <div
+          class="row"
+          data-aos="fade-right"
+          data-aos-anchor-placement="top-bottom"
+        >
+          <div class="col-sm-4">
+            <a href="index.html"> <img src="" alt="" />ViveroMalPais </a>
+          </div>
+          <div class="col-sm-4 social-icons">
+            <div class="d-flex justify-content-around">
+              <a target="_blank" href=""><i class="bi bi-instagram"></i></a>
+              <a target="_blank" href=""><i class="bi bi-twitter"></i></a>
+              <a target="_blank" href=""><i class="bi bi-youtube"></i></a>
+              <a target="_blank" href=""><i class="bi bi-facebook"></i></a>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <a target="_blank" href=""
+              ><button type="button" class="btn btn-dark">
+                VMP Stories
+              </button></a
+            >
+          </div>
+        </div>
+        <div class="row footer-bottom overflow-x-hidden">
+          <small data-aos="fade-left" data-aos-anchor-placement="top-bottom"
+            >© 2023 <b>VMP</b> | COSTA RICA
+          </small>
+          <small data-aos="fade-left" data-aos-anchor-placement="top-bottom"
+            >*All Rights Reserved*</small
+          >
+        </div>
+      </div>
+    </footer>
+    <!--TOASTIFY-->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <!--BOOTSTRAP-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <!--JAVASCRIPT-->
+    <script src="app.js"></script>
+  </body>
+</html>
